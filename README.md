@@ -14,19 +14,18 @@
 ### Running the app
 
 1. Navigate to the directory where you have cloned the project via your terminal on a Windows or Mac PC.
-2. Navigate to the the interview-visualization directory within the terminal.
-3. Navigate to the folder titles <b>backend</b>
+3. Navigate to the folder titled <b>backend</b> via the terminal.
 4. If regraph was successfully installed, the following should start the Flask application without errors.
 
 ```
 python content_authoring_backend.py
 ```
 
-5. The app will run locally, and th terminal should look like the following: 
+5. The app will run locally, and the terminal should look like the following: 
 
 ![image](https://user-images.githubusercontent.com/16523534/222415570-b26fbd62-9a5b-47bb-921a-962dff312871.png)
 
-6. In another terminal, navigate back to the <b>interview-visualization</b> directory.
+6. In another terminal, navigate back to the main directory.
 7. For first-time users, enter the following command that installs all dependencies.
 
 ```
