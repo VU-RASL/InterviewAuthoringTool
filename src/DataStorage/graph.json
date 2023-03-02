@@ -1,0 +1,231 @@
+{
+  "links": [
+    {
+      "id": "000_001",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "000",
+      "target": "001"
+    },
+    {
+      "id": "001_002",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "001",
+      "target": "002"
+    },
+    {
+      "id": "002_004",
+      "label": "User Response: Yes",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "002",
+      "target": "004",
+      "type": "User Response: Yes"
+    },
+    {
+      "id": "002_005",
+      "label": "User Response: No",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "002",
+      "target": "005",
+      "type": "User Response: No"
+    },
+    {
+      "id": "004_005",
+      "label": "",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "004",
+      "target": "005"
+    },
+    {
+      "id": "005_006",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "005",
+      "target": "006"
+    },
+    {
+      "id": "006_007",
+      "labelStyle": {
+        "fontSize": 12
+      },
+      "markerEnd": {
+        "type": "arrowclosed",
+        "strokeWidth": 5
+      },
+      "source": "006",
+      "target": "007"
+    }
+  ],
+  "nodes": [
+    {
+      "DialogText": "Good morning! My name is Adriana and I am the supervisor for this department. ",
+      "NextDialogID": [
+        "001"
+      ],
+      "alternates": [
+        "Hello! I am Adriana. I'm the supervisor for this department.",
+        "Hi I'm Adriana and I am the supervisor for this department."
+      ],
+      "data": {
+        "label": "000 Good morning! My name is Adriana and I am the supervisor for this department. "
+      },
+      "id": "000",
+      "position": {
+        "x": 189,
+        "y": -217
+      },
+      "section": "Greetings",
+      "type": "input"
+    },
+    {
+      "DialogText": "Today, I'd like to find out about your background and experience.",
+      "NextDialogID": [
+        "002"
+      ],
+      "alternates": [
+        "Today, I'd like to find out more about you."
+      ],
+      "data": {
+        "label": "001 Today, I'd like to find out about your background and experience."
+      },
+      "id": "001",
+      "position": {
+        "x": -32.03342844405685,
+        "y": -114.14048792491612
+      },
+      "section": "Greetings",
+      "type": "default"
+    },
+    {
+      "DialogText": "Please tell me, do you have any previous work experience?",
+      "NextDialogID": [
+        "004",
+        "005"
+      ],
+      "alternates": [
+        "Do you have any previous work experience?",
+        "Have you held any jobs before?"
+      ],
+      "data": {
+        "label": "002 Please tell me, do you have any previous work experience?"
+      },
+      "id": "002",
+      "position": {
+        "x": 115,
+        "y": 4
+      },
+      "section": "Previous Work Experience",
+      "type": "default"
+    },
+    {
+      "DialogText": "Please tell me more about your work experience?",
+      "NextDialogID": [
+        "005"
+      ],
+      "alternates": [
+        "Can you please tell me more about your prior work?"
+      ],
+      "data": {
+        "label": "004 Please tell me more about your work experience?"
+      },
+      "id": "004",
+      "position": {
+        "x": -62.178252130869,
+        "y": 128.16853769572583
+      },
+      "section": "Previous Work Experience",
+      "type": "default"
+    },
+    {
+      "DialogText": "Let's move on to some technical questions.",
+      "NextDialogID": [
+        "006"
+      ],
+      "alternates": [
+        "I'm going to ask you some technical questions. "
+      ],
+      "data": {
+        "label": "005 Let's move on to some technical questions."
+      },
+      "id": "005",
+      "position": {
+        "x": 130.33465356201427,
+        "y": 240.3761996274327
+      },
+      "section": "Technical",
+      "type": "default"
+    },
+    {
+      "DialogText": "Do you have experience using game development software such as Unity or Unreal?",
+      "NextDialogID": [
+        "007"
+      ],
+      "alternates": [
+        "Please tell me, have you ever developed programs or games using Unity or Unreal?"
+      ],
+      "data": {
+        "label": "006 Do you have experience using game development software such as Unity or Unreal?"
+      },
+      "id": "006",
+      "position": {
+        "x": 146.58497078186818,
+        "y": 342.7320621258949
+      },
+      "section": "",
+      "type": "default"
+    },
+    {
+      "DialogText": "Thank you for coming in today!",
+      "NextDialogID": [
+        ""
+      ],
+      "alternates": [
+        "It was wondering having you here. Thanks for coming in! "
+      ],
+      "data": {
+        "label": "007 Thank you for coming in today!"
+      },
+      "id": "007",
+      "position": {
+        "x": 146.58497078186818,
+        "y": 442.7320621258949
+      },
+      "section": "",
+      "type": "default"
+    }
+  ]
+}

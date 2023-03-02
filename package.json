@@ -1,0 +1,44 @@
+{
+  "name": "interview-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-loader": "^8.1.0",
+    "flask": "^0.2.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flow": "^1.0.3",
+    "react-scripts": "^5.0.1",
+    "reactflow": "^11.1.1",
+    "use-undoable": "^3.3.12",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-backend": "cd backend && ../venv/bin/flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

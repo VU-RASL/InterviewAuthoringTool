@@ -1,0 +1,13 @@
+.react-flow__edge .selected{
+    stroke: darkgreen;
+    stroke-width: 5px;
+}
+
+.react-flow__nodesselection .selection {
+    background-color: coral;
+    
+}
+
+.react-flow__nodesselection-rect{
+    background-color: aquamarine;
+}
