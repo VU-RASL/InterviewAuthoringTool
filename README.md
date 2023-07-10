@@ -1,5 +1,5 @@
 # Interview Authoring Tool
-## Interview Authoring Tool for Springer article HCI 2023. Read more: {link TBD} 
+## Interview Authoring Tool for Springer article HCI 2023. Read more: https://link.springer.com/chapter/10.1007/978-3-031-35129-7_30 
 
 ![image](https://user-images.githubusercontent.com/16523534/222416147-54c273ed-aaed-43aa-863b-b119b3fcea07.png)
 
