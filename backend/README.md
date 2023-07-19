@@ -38,4 +38,4 @@ A command has been added to `package.json` to allow the following command to sta
 
 `npm run start-backend`
 
-The API is running on localhost:5000. The front-end fetches data from the API in `APIService.js`
+The API is running on localhost:5000. The front-end fetches data from the content-authoring-backend.py Flask app
