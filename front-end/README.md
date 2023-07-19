@@ -25,7 +25,7 @@ python content_authoring_backend.py
 
 ![image](https://user-images.githubusercontent.com/16523534/222415570-b26fbd62-9a5b-47bb-921a-962dff312871.png)
 
-6. In another terminal, navigate to the front-end directory.
+6. In another terminal, navigate to the <b>front-end</b> directory.
 7. For first-time users, enter the following command that installs all dependencies.
 
 ```
@@ -40,4 +40,4 @@ npm start
 
 ## Back End Functions 
 
-Please see the document named 'backend-functions.pdf' in the 'back-end' directory for details on the graph rewrite back-end functions. 
+Please see the document named 'backend-functions.pdf' in the <b>backend</b> directory for details on the graph rewrite back-end functions. 
