@@ -1,7 +1,6 @@
-from platform import node
-from flask import Flask, jsonify, request
+from flask import Flask, request
 from regraph import NXGraph, Rule
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 app = Flask(__name__) #initializing Flask app 
 CORS(app) #adding flask app to CORS to allow communication 
@@ -10,15 +9,14 @@ graph = NXGraph() #initializing the graph
 
 #Initialization 
 @app.route("/init", methods=["GET", "POST", "PUT"])
-#@cross_origin()
 def init():
     global graph
     graph = NXGraph()
     #Getting the init_node from the client 
     dialogue = request.get_json()["init_node"]
-    print("Init next ID", dialogue['NextDialogID'])
+    #print("Init next ID", dialogue['NextDialogID'])
     graph.add_nodes_from([(dialogue["id"], dialogue)])
-    print(format_d3(graph.to_d3_json()))
+    #print(format_d3(graph.to_d3_json()))
     return format_d3(graph.to_d3_json())
 
 #Initializing graph from template
@@ -29,7 +27,7 @@ def init_graph():
 
     init_graph = request.get_json()['init_graph']
 
-    print("graph", init_graph['links'])
+    #print("graph", init_graph['links'])
     graph.add_nodes_from([(node['id'], node) for node in init_graph['nodes']])    #graph.add_edges_from(init_graph['links'])
     graph.add_edges_from([(edge['source'], edge['target'], edge) for edge in init_graph['links']])
     return format_d3(graph.to_d3_json())
